@@ -16,7 +16,7 @@ import io.restassured.specification.ResponseSpecification;
 
 public class BaseTest {
 	
-	//BaseTest modified to check git Local
+	//branch practice change
 
     protected RequestSpecification requestSpec;
     protected ResponseSpecification responseSpec;
