@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-01-18T23:31:39 IST" name="Default suite" finished-at="2026-01-18T23:31:42 IST" duration-ms="2326">
+    <groups>
+    </groups>
+    <test started-at="2026-01-18T23:31:39 IST" name="Default test" finished-at="2026-01-18T23:31:42 IST" duration-ms="2326">
+      <class name="com.qa.test.GetAllProductsTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.qa.test.GetAllProductsTest@6302bbb1]" started-at="2026-01-18T23:31:39 IST" name="setup" finished-at="2026-01-18T23:31:40 IST" duration-ms="376" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="getAllProducts()[pri:0, instance:com.qa.test.GetAllProductsTest@6302bbb1]" started-at="2026-01-18T23:31:40 IST" name="getAllProducts" finished-at="2026-01-18T23:31:42 IST" duration-ms="1920" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getAllProducts -->
+      </class> <!-- com.qa.test.GetAllProductsTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

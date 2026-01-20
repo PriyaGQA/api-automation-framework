@@ -1,0 +1,17 @@
+com\qa\base\BaseTest.class
+com\qa\filters\FailureLoggingFilter.class
+com\qa\constants\ApiTestData.class
+com\qa\test\UpdateProductUsingPOJOTest.class
+com\qa\test\GetProductAfterCreateTest.class
+com\qa\payloads\ProductPayload.class
+com\qa\test\GetSingleProductTest.class
+com\qa\test\GetAllProductsTest.class
+com\qa\utils\ResponseUtils.class
+com\qa\pojo\ProductResponse.class
+com\qa\constants\FrameworkConstants.class
+com\qa\utils\ConfigReader.class
+com\qa\dataprovider\ProductDataProvider.class
+com\qa\pojo\ProductPayload.class
+com\qa\test\CreateProductUsingPOJOTest.class
+com\qa\test\PartialUpdateUsingPOJOTest.class
+com\qa\test\UnauthorizedAccessTest.class

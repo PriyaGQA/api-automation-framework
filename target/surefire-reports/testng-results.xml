@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="11" passed="11" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-01-20T19:29:29 IST" name="API Automation Suite" finished-at="2026-01-20T19:29:39 IST" duration-ms="10458">
+    <groups>
+    </groups>
+    <test started-at="2026-01-20T19:29:29 IST" name="API Tests" finished-at="2026-01-20T19:29:39 IST" duration-ms="10458">
+      <class name="com.qa.test.PartialUpdateUsingPOJOTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.qa.test.PartialUpdateUsingPOJOTest@6dc17b83]" started-at="2026-01-20T19:29:36 IST" name="setup" finished-at="2026-01-20T19:29:36 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="partialUpdateUsingPOJOTest()[pri:0, instance:com.qa.test.PartialUpdateUsingPOJOTest@6dc17b83]" started-at="2026-01-20T19:29:36 IST" name="partialUpdateUsingPOJOTest" finished-at="2026-01-20T19:29:37 IST" duration-ms="1181" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- partialUpdateUsingPOJOTest -->
+      </class> <!-- com.qa.test.PartialUpdateUsingPOJOTest -->
+      <class name="com.qa.test.UnauthorizedAccessTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.qa.test.UnauthorizedAccessTest@5e0826e7]" started-at="2026-01-20T19:29:37 IST" name="setup" finished-at="2026-01-20T19:29:37 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="getProductsWithoutAuth_ShouldReturn401()[pri:0, instance:com.qa.test.UnauthorizedAccessTest@5e0826e7]" started-at="2026-01-20T19:29:37 IST" name="getProductsWithoutAuth_ShouldReturn401" finished-at="2026-01-20T19:29:38 IST" duration-ms="621" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getProductsWithoutAuth_ShouldReturn401 -->
+      </class> <!-- com.qa.test.UnauthorizedAccessTest -->
+      <class name="com.qa.test.GetSingleProductTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.qa.test.GetSingleProductTest@5fdcaa40]" started-at="2026-01-20T19:29:33 IST" name="setup" finished-at="2026-01-20T19:29:33 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="getLimitedProducts()[pri:0, instance:com.qa.test.GetSingleProductTest@5fdcaa40]" started-at="2026-01-20T19:29:33 IST" name="getLimitedProducts" finished-at="2026-01-20T19:29:33 IST" duration-ms="517" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getLimitedProducts -->
+        <test-method signature="getProductById(int,int)[pri:0, instance:com.qa.test.GetSingleProductTest@5fdcaa40]" started-at="2026-01-20T19:29:34 IST" name="getProductById" data-provider="productTestData" finished-at="2026-01-20T19:29:34 IST" duration-ms="656" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[200]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getProductById -->
+        <test-method signature="getProductById(int,int)[pri:0, instance:com.qa.test.GetSingleProductTest@5fdcaa40]" started-at="2026-01-20T19:29:34 IST" name="getProductById" data-provider="productTestData" finished-at="2026-01-20T19:29:35 IST" duration-ms="512" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[200]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getProductById -->
+        <test-method signature="getProductById(int,int)[pri:0, instance:com.qa.test.GetSingleProductTest@5fdcaa40]" started-at="2026-01-20T19:29:35 IST" name="getProductById" data-provider="productTestData" finished-at="2026-01-20T19:29:35 IST" duration-ms="494" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[200]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getProductById -->
+        <test-method signature="getProductById_dynamic()[pri:0, instance:com.qa.test.GetSingleProductTest@5fdcaa40]" started-at="2026-01-20T19:29:35 IST" name="getProductById_dynamic" finished-at="2026-01-20T19:29:36 IST" duration-ms="1051" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getProductById_dynamic -->
+      </class> <!-- com.qa.test.GetSingleProductTest -->
+      <class name="com.qa.test.UpdateProductUsingPOJOTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.qa.test.UpdateProductUsingPOJOTest@32eff876]" started-at="2026-01-20T19:29:38 IST" name="setup" finished-at="2026-01-20T19:29:38 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="updateProductUsingPOJOTest()[pri:0, instance:com.qa.test.UpdateProductUsingPOJOTest@32eff876]" started-at="2026-01-20T19:29:38 IST" name="updateProductUsingPOJOTest" finished-at="2026-01-20T19:29:39 IST" duration-ms="1042" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateProductUsingPOJOTest -->
+      </class> <!-- com.qa.test.UpdateProductUsingPOJOTest -->
+      <class name="com.qa.test.GetProductAfterCreateTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.qa.test.GetProductAfterCreateTest@15ff3e9e]" started-at="2026-01-20T19:29:32 IST" name="setup" finished-at="2026-01-20T19:29:32 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="createAndGetProduct()[pri:0, instance:com.qa.test.GetProductAfterCreateTest@15ff3e9e]" started-at="2026-01-20T19:29:32 IST" name="createAndGetProduct" finished-at="2026-01-20T19:29:33 IST" duration-ms="999" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createAndGetProduct -->
+      </class> <!-- com.qa.test.GetProductAfterCreateTest -->
+      <class name="com.qa.test.CreateProductUsingPOJOTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.qa.test.CreateProductUsingPOJOTest@42e99e4a]" started-at="2026-01-20T19:29:29 IST" name="setup" finished-at="2026-01-20T19:29:29 IST" duration-ms="446" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="createProduct()[pri:0, instance:com.qa.test.CreateProductUsingPOJOTest@42e99e4a]" started-at="2026-01-20T19:29:29 IST" name="createProduct" finished-at="2026-01-20T19:29:31 IST" duration-ms="2353" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createProduct -->
+      </class> <!-- com.qa.test.CreateProductUsingPOJOTest -->
+      <class name="com.qa.test.GetAllProductsTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.qa.test.GetAllProductsTest@7fa98a66]" started-at="2026-01-20T19:29:31 IST" name="setup" finished-at="2026-01-20T19:29:31 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="getAllProducts()[pri:0, instance:com.qa.test.GetAllProductsTest@7fa98a66]" started-at="2026-01-20T19:29:31 IST" name="getAllProducts" finished-at="2026-01-20T19:29:32 IST" duration-ms="518" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getAllProducts -->
+      </class> <!-- com.qa.test.GetAllProductsTest -->
+    </test> <!-- API Tests -->
+  </suite> <!-- API Automation Suite -->
+</testng-results>
